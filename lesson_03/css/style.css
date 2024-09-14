@@ -1,0 +1,75 @@
+@import url(reset.css);
+
+/* запит до усіх об'єктів на сторінці */
+* {
+	color: darkolivegreen;
+}
+
+/* запит по назві тегу */
+li {
+	color: blueviolet;
+}
+
+/* запит по назві id */
+#bottom {
+	color: red;
+}
+
+.header {}
+
+/* запит по назві класу */
+.header-title {	color: blue;
+}
+
+/* запит по назві атрибута */
+[class*="de"] {
+	color: green;
+}
+
+/* всі span з класом decor */
+span.decor-upper {
+	color: orange;
+}
+
+/* Звернення до всіх об'єктів всередині об'єктів з класом .nav */
+.nav * {
+	font-style: italic;
+}
+
+/* Звернення до всіх об'єктів першого рівня всередині об'єктів з класом .nav-list */
+.nav-list > * {
+	margin: 10px 0;
+}
+
+/* Звернення до всіх об'єктів, які розташовані далі по коду після об'єктів з класом .content-image та мають такий само рівень вкладеносі */
+.content-image ~ * {
+	font-weight: 800;
+}
+
+/* Звернення до тегу div, який розташований безпосередньо далі по коду після об'єктів з класом .content-main та має такий само рівень вкладеносі */
+.content-main + div {
+	margin-top: 20px;;
+}
+
+.nav-link {}
+
+.content {}
+
+/* Звернення до об'єктів з класом .decor-upper всередині об'єктів з класом content-item */
+.content-item .decor-upper{
+	color: teal;
+}
+
+/* Звернення до тегів p всередині об'єктів з класом content-item */
+.content-item p{
+	color: sienna;
+}
+
+/* Звернення відразу до об'єктів з класом content-list та до об' єктів з класом content-image */
+.content-list,
+.content-image {
+	margin-left: 20px;
+}
+
+
+.footer {}
