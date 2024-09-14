@@ -15,8 +15,6 @@ li {
 	color: red;
 }
 
-.header {}
-
 /* запит по назві класу */
 .header-title {	color: blue;
 }
@@ -51,10 +49,6 @@ span.decor-upper {
 	margin-top: 20px;;
 }
 
-.nav-link {}
-
-.content {}
-
 /* Звернення до об'єктів з класом .decor-upper всередині об'єктів з класом content-item */
 .content-item .decor-upper{
 	color: teal;
@@ -70,6 +64,3 @@ span.decor-upper {
 .content-image {
 	margin-left: 20px;
 }
-
-
-.footer {}
